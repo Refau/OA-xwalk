@@ -610,13 +610,6 @@ async function loadPage() {
 
 loadPage();
 
-
-const AUDIENCES = {
-  mobile: () => window.innerWidth < 600,
-  desktop: () => window.innerWidth >= 600,
-  // define your custom audiences here as needed
-};
-
 const isConsentGiven = true;
 const martechLoadedPromise = initMartech(
     // The WebSDK config
